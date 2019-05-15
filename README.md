@@ -26,3 +26,12 @@ We provide rich context information such as camera IDs, timestamp, tracks relati
 `Google Driver`: will be released later.
 
 ## Citation
+''' 
+@inproceedings{liu2016deep,
+  title={Deep Relative Distance Learning: Tell the Difference Between Similar Vehicles},
+  author={Liu, Hongye and Tian, Yonghong and Wang, Yaowei and Pang, Lu and Huang, Tiejun},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={2167--2175},
+  year={2016}
+}
+'''
