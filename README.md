@@ -26,7 +26,7 @@ We provide rich context information such as camera IDs, timestamp, tracks relati
 `Google Driver`: will be released later.
 
 ## Citation
-```java  
+```  
 @inproceedings{lou2019large,
   title={A Large-Scale Dataset for Vehicle Re-Identification in the Wild},
   author={Lou, Yihang and Bai, Yan and Liu, Jun and Wang, Shiqi and Duan, Ling-Yu},
