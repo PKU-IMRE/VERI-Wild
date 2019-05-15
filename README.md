@@ -17,3 +17,12 @@ The VERI-Wild is collected from a duration of 125, 280 (174x24x30) video hours. 
 We provide rich context information such as camera IDs, timestamp, tracks relation across cameras, which are potential to facilitate the research on behavior analysis in camera networks, like vehicle behavior modeling, cross-camera tracking and graph-based retrieval.
 
 ![](https://github.com/PKU-IMRE/VERI-Wild/blob/master/statistics.png)
+
+## Download Links
+
+Baidu Yun Pan: https://pan.baidu.com/s/1FzvR5iRQgh8ZbSYZPbi9aQ  
+Password: will be released when the challenge begins.
+
+Google driver: will be released later.
+
+## Citation
