@@ -27,11 +27,10 @@ We provide rich context information such as camera IDs, timestamp, tracks relati
 
 ## Citation
 ```java  
-@inproceedings{liu2016deep,
-  title={Deep Relative Distance Learning: Tell the Difference Between Similar Vehicles},
-  author={Liu, Hongye and Tian, Yonghong and Wang, Yaowei and Pang, Lu and Huang, Tiejun},
+@inproceedings{lou2019large,
+  title={A Large-Scale Dataset for Vehicle Re-Identification in the Wild},
+  author={Lou, Yihang and Bai, Yan and Liu, Jun and Wang, Shiqi and Duan, Ling-Yu},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  pages={2167--2175},
-  year={2016}
+  year={2019}
 }
 ```
