@@ -23,6 +23,6 @@ We provide rich context information such as camera IDs, timestamp, tracks relati
 Baidu Yun Pan: https://pan.baidu.com/s/1FzvR5iRQgh8ZbSYZPbi9aQ  
 Password: will be released when the challenge begins.
 
-Google driver: will be released later.
+Google Driver: will be released later.
 
 ## Citation
