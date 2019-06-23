@@ -21,9 +21,9 @@ We provide rich context information such as camera IDs, timestamp, tracks relati
 ## Download Links
 
 `Baidu Yun Pan`: https://pan.baidu.com/s/1FzvR5iRQgh8ZbSYZPbi9aQ  
-`Password`: will be released when the challenge begins.
+`Password`: kob9 
 
-`Google Driver`: will be released later.
+`Google Driver`:https://drive.google.com/drive/folders/1q9kClC0gy0bz2i06sHlKUh2Pqk6RxKan?usp=sharing
 
 ## Citation
 ```  
