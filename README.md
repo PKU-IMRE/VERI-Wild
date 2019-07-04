@@ -1,6 +1,6 @@
 # VERI-Wild
 A Large-Scale Dataset for Vehicle Re-Identification in the Wild
-
+![](https://github.com/PKU-IMRE/VERI-Wild/blob/master/cars.JPG)
 ## Description of VERI-Wild Dataset
 A large-scale vehicle ReID dataset in the wild (VERI-Wild) is captured from a large CCTV surveillance system consisting of 174 cameras across one month (30× 24h) under unconstrained scenarios. The cameras are distributed in a large urban district of more than 200km2. The YOLO-v2 [2] is used to detect the bounding box of vehicles. The raw vehicle image set contains 12 million vehicle images, and 11 volunteers are invited to clean the dataset for 1 month. After data cleaning and annotation, 416,314 vehicle images of 40,671 identities are collected. The statistics of VERI-Wild is illustrated in Figure. For privacy issues, the license plates are masked in the dataset. The distinctive features of VERI-Wild are summarized into the following aspects:
 
