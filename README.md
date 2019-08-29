@@ -20,7 +20,7 @@ We provide rich context information such as camera IDs, timestamp, tracks relati
 ![](https://github.com/PKU-IMRE/VERI-Wild/blob/master/statistics.png)
 
 ## Test
-Note that, given a query image, we remove the images with the same camera id and same vehicle id in the gallery set. They are not considered when computing the mAP and CMC.
+Note that, given a query image, we remove the images with the same camera id and same vehicle id as query image in the gallery set. They are not considered when computing the mAP and CMC.
 
 ## Download Links
 
