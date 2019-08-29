@@ -6,4 +6,4 @@ reference images is returned from the database.
 
 The mean Average Precision (mAP) and Cumulative Matching Characteristics (CMC) are used as performance metrics.
 
-Note that, given a query image, all of the reference images in gallery set are involved in the calculation of CMC and mAP.
+Note that, given a query image, we remove the images with the same camera id and same vehicle id in the gallery set. They are not considered when computing the mAP and CMC.
