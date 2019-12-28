@@ -25,12 +25,6 @@ Note that, for CVPR 2019 test set, given a query image, we remove the images wit
 
 We also provide the test dataset for VCIP grand challenge, which is a more challenging dataset. We named it the GC test set.
 
-## Download Links
-
-`Baidu Yun Pan`: https://pan.baidu.com/s/1FzvR5iRQgh8ZbSYZPbi9aQ  
-`Password`: kob9 
-
-`Google Driver`:https://drive.google.com/drive/folders/1q9kClC0gy0bz2i06sHlKUh2Pqk6RxKan?usp=sharing
 
 ## Citation
 ```  
@@ -41,3 +35,6 @@ We also provide the test dataset for VCIP grand challenge, which is a more chall
   year={2019}
 }
 ```
+
+## Contactor
+Yan Bai, Email: yanbai@pku.edu.cn
