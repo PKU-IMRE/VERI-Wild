@@ -26,6 +26,13 @@ Note that, for CVPR 2019 test set, given a query image, we remove the images wit
 We also provide the test dataset for VCIP grand challenge, which is a more challenging dataset. We named it the GC test set.
 
 
+## Download
+Baidu cloud disk:
+Link: https://pan.baidu.com/s/1ytDVUQAPlfLa5Gwr_4UNRg Password：vh8g
+
+Google driven:
+https://drive.google.com/drive/folders/1q9kClC0gy0bz2i06sHlKUh2Pqk6RxKan?usp=sharing
+
 ## Citation
 ```  
 @inproceedings{lou2019large,
