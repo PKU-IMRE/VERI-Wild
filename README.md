@@ -1,5 +1,5 @@
 # VERI-Wild
-A Large-Scale Dataset for Vehicle Re-Identification in the Wild
+VERI-Wild: A Large Dataset and a New Method for Vehicle Re-Identification in the Wild
 
 ![](https://github.com/PKU-IMRE/VERI-Wild/blob/master/cars.JPG)
 ## Description of VERI-Wild Dataset
@@ -36,9 +36,10 @@ https://drive.google.com/drive/folders/1q9kClC0gy0bz2i06sHlKUh2Pqk6RxKan?usp=sha
 ## Citation
 ```  
 @inproceedings{lou2019large,
-  title={A Large-Scale Dataset for Vehicle Re-Identification in the Wild},
+  title={VERI-Wild: A Large Dataset and a New Method for Vehicle Re-Identification in the Wild},
   author={Lou, Yihang and Bai, Yan and Liu, Jun and Wang, Shiqi and Duan, Ling-Yu},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages = {3235--3243},
   year={2019}
 }
 ```
