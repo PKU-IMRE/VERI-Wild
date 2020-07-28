@@ -20,9 +20,8 @@ We provide rich context information such as camera IDs, timestamp, tracks relati
 ![](https://github.com/PKU-IMRE/VERI-Wild/blob/master/statistics.png)
 
 ## Test
-$\color{red}{
-Note that, for CVPR 2019 test set, given a query image, we remove the images with the same camera id and same vehicle id as query image in the gallery set. They are not considered when computing the mAP and CMC.
-}$
+$\color{red}{Note that, for CVPR 2019 test set, given a query image, we remove the images with the same camera id and same vehicle id as query image in the gallery set. They are not considered when computing the mAP and CMC.}$
+
 
 
 ## Download
@@ -94,12 +93,21 @@ Yan Bai, Email: yanbai@pku.edu.cn
 </table>
 
 [1] Yang, L., Luo, P., Change Loy, C., Tang, X.: A large-scale car dataset for fine-grained categorization and verification. In: IEEE Conference on Computer Visionand Pattern Recognition. pp. 3973–3981 (2015)
+
 [2] Lou, Y., Bai, Y., Liu, J., Wang, S., Duan, L.: Veri-wild: A large dataset and a newmethod for vehicle re-identification in the wild. In: IEEE Conference on ComputerVision and Pattern Recognition. pp. 3235–3243 (2019)
+
 [3] Alfasly, S., Hu, Y., Li, H., Liang, T., Jin, X., Liu, B., Zhao, Q.: Multi-label-basedsimilarity learning for vehicle re-identification. IEEE Access7, 162605–162616(2019)
+
 [4] Pirazh, K., Kumar, A., Peri, N., et al: A dual path modelwith adaptive attentionfor vehicle re-identification. In: IEEE International Conference on Computer Vision(2019)
+
 [5] Yan Bai, Yihang Lou, Yongxing Dai, et al: Disentangled Feature Learning Network for Vehicle Re-Identification. In: IJCAI 2020
+
 [6] Kuma Ratnesh and  Weill Edwin and et al, Vehicle re-identification: an efficient baseline using triplet embedding. IN IJCNN 2019
+
 [7] Xin Jin, Cuiling Lan, Wenjun Zeng, Zhibo Chen: Uncertainty-Aware Multi-Shot Knowledge Distillation for Image-Based Object Re-Identification. In: AAAI 2020
+
 [8] Shen Fei, Zhu Jianqing and et al, JingchangExploring Spatial Significance via Hybrid Pyramidal Graph Network for Vehicle Re-identification. In arXiv preprint arXiv:2005.14684
+
 [9] Looking GLAMORous: Vehicle Re-Id in Heterogeneous Cameras Networks with Global and Local Attention. In arXiv preprint arXiv:2002.02256
+
 [10] Khorramshahi Pirazh, Peri Neehar, Chen Jun-cheng, Chellappa Rama: The Devil is in the Details: Self-Supervised Attention for Vehicle Re-Identification. In ECCV 2020
