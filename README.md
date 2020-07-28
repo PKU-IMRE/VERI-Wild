@@ -102,12 +102,12 @@ Yan Bai, Email: yanbai@pku.edu.cn
 
 [5] Yan Bai, Yihang Lou, Yongxing Dai, et al: Disentangled Feature Learning Network for Vehicle Re-Identification. In: IJCAI 2020
 
-[6] Kuma Ratnesh and  Weill Edwin and et al, Vehicle re-identification: an efficient baseline using triplet embedding. IN IJCNN 2019
+[6] Kuma Ratnesh and  Weill Edwin and et al: Vehicle re-identification: an efficient baseline using triplet embedding. IN IJCNN 2019
 
 [7] Xin Jin, Cuiling Lan, Wenjun Zeng, Zhibo Chen: Uncertainty-Aware Multi-Shot Knowledge Distillation for Image-Based Object Re-Identification. In: AAAI 2020
 
-[8] Shen Fei, Zhu Jianqing and et al, JingchangExploring Spatial Significance via Hybrid Pyramidal Graph Network for Vehicle Re-identification. In arXiv preprint arXiv:2005.14684
+[8] Shen Fei, Zhu Jianqing and et al: Exploring Spatial Significance via Hybrid Pyramidal Graph Network for Vehicle Re-identification. In arXiv preprint arXiv:2005.14684
 
-[9] Looking GLAMORous: Vehicle Re-Id in Heterogeneous Cameras Networks with Global and Local Attention. In arXiv preprint arXiv:2002.02256
+[9] Abhijit Suprem and Calton Pu: Looking GLAMORous: Vehicle Re-Id in Heterogeneous Cameras Networks with Global and Local Attention. In arXiv preprint arXiv:2002.02256
 
 [10] Khorramshahi Pirazh, Peri Neehar, Chen Jun-cheng, Chellappa Rama: The Devil is in the Details: Self-Supervised Attention for Vehicle Re-Identification. In ECCV 2020
