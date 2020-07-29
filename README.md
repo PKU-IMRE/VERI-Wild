@@ -82,13 +82,16 @@ Yan Bai, Email: yanbai@pku.edu.cn
 		<td> UMTS(Resnet50)[7]</td> <td> 72.7 </td> <td> 84.5 </td> <td> - </td><td> 66.1 </td> <td> 79.3 </td> <td> - </td><td> 54.2 </td> <td> 72.8 </td> <td> - </td>
 	<tr>
 	<tr>
-		<td> HPGN(Resnet50+PGN)[8]</td> <td> 80.42 </td> <td> 91.37 </td> <td> - </td><td> 75.17 </td> <td> 88.21 </td> <td> - </td><td> 65.04 </td> <td> 82.68 </td> <td> - </td>
+		<td> Strong baesline(Resnet50)[8]</td> <td> 76.61 </td> <td> 90.83 </td> <td> 97.29 </td><td> 70.11 </td> <td> 87.45 </td> <td> 95.24 </td><td> 61.3 </td> <td> 82.58 </td> <td> 92.73 </td>
 	<tr>
 	<tr>
-		<td> GLAMOR(Resnet50+PGN)[9]</td> <td> 77.15 </td> <td> 92.13 </td> <td> 97.43 </td><td> - </td> <td> - </td> <td> - </td><td> - </td> <td> - </td> <td> - </td>
+		<td> HPGN(Resnet50+PGN)[9]</td> <td> 80.42 </td> <td> 91.37 </td> <td> - </td><td> 75.17 </td> <td> 88.21 </td> <td> - </td><td> 65.04 </td> <td> 82.68 </td> <td> - </td>
 	<tr>
 	<tr>
-		<td> SAVER(Resnet50)[10]</td> <td> 80.9 </td> <td> 93.78 </td> <td> 97.93 </td><td> 75.3 </td> <td> 92.7 </td> <td> 97.48 </td><td> 67.7 </td> <td> 89.5 </td> <td> 95.8 </td>
+		<td> GLAMOR(Resnet50+PGN)[10]</td> <td> 77.15 </td> <td> 92.13 </td> <td> 97.43 </td><td> - </td> <td> - </td> <td> - </td><td> - </td> <td> - </td> <td> - </td>
+	<tr>
+	<tr>
+		<td> SAVER(Resnet50)[11]</td> <td> 80.9 </td> <td> 93.78 </td> <td> 97.93 </td><td> 75.3 </td> <td> 92.7 </td> <td> 97.48 </td><td> 67.7 </td> <td> 89.5 </td> <td> 95.8 </td>
 	<tr>
 </table>
 
@@ -106,8 +109,10 @@ Yan Bai, Email: yanbai@pku.edu.cn
 
 [7] Xin Jin, Cuiling Lan, Wenjun Zeng, Zhibo Chen: Uncertainty-Aware Multi-Shot Knowledge Distillation for Image-Based Object Re-Identification. In: AAAI 2020
 
-[8] Shen Fei, Zhu Jianqing and et al: Exploring Spatial Significance via Hybrid Pyramidal Graph Network for Vehicle Re-identification. In arXiv preprint arXiv:2005.14684
+[8] Luo Hao and Gu Youzhi and et al:Bag of Tricks and a Strong Baseline for Deep Person Re-Identification. In CVPR workshop 2019.
 
-[9] Abhijit Suprem and Calton Pu: Looking GLAMORous: Vehicle Re-Id in Heterogeneous Cameras Networks with Global and Local Attention. In arXiv preprint arXiv:2002.02256
+[9] Shen Fei, Zhu Jianqing and et al: Exploring Spatial Significance via Hybrid Pyramidal Graph Network for Vehicle Re-identification. In arXiv preprint arXiv:2005.14684
 
-[10] Khorramshahi Pirazh, Peri Neehar, Chen Jun-cheng, Chellappa Rama: The Devil is in the Details: Self-Supervised Attention for Vehicle Re-Identification. In ECCV 2020
+[10] Abhijit Suprem and Calton Pu: Looking GLAMORous: Vehicle Re-Id in Heterogeneous Cameras Networks with Global and Local Attention. In arXiv preprint arXiv:2002.02256
+
+[11] Khorramshahi Pirazh, Peri Neehar, Chen Jun-cheng, Chellappa Rama: The Devil is in the Details: Self-Supervised Attention for Vehicle Re-Identification. In ECCV 2020
