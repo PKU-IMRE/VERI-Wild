@@ -64,7 +64,7 @@ Yan Bai, Email: yanbai@pku.edu.cn
 		<td> MLSL[3]</td> <td> 46.32 </td> <td> - </td> <td> - </td><td> 42.37 </td> <td> - </td> <td> - </td><td> 36.61 </td> <td> - </td> <td> - </td>
 	<tr>
 	<tr>
-		<td> Triplet(Resnet50)</td> <td> 57.69 </td> <td> 65.47 </td> <td> 86.78 </td><td> 46.81 </td> <td> 57.52 </td> <td> 81.22 </td><td> 34.73 </td> <td> 49.21 </td> <td> 72.11 </td>
+		<td> Triplet(Resnet50)</td> <td> 58.43 </td> <td> 65.76 </td> <td> 86.98 </td><td> 49.72 </td> <td> 57.76 </td> <td> 80.86 </td><td> 38.57 </td> <td> 47.65 </td> <td> 71.66 </td>
 	<tr>
 	<tr>
 		<td> FDA-Net(Resnet50)[2]</td> <td> 61.57 </td> <td> 73.62 </td> <td> 91.23 </td><td> 52.69 </td> <td> 64.29 </td> <td> 85.39 </td><td> 45.78 </td> <td> 58.76 </td> <td> 80.97 </td>
