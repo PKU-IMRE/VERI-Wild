@@ -1,9 +1,0 @@
-#VeRI-Wild
-This folder lists the  evaluation code for the VeRI-Wild dataset.
-
-In the ReID process, for each given query, a candidate list sorted by the feature distances between the query and
-reference images is returned from the database. 
-
-The mean Average Precision (mAP) and Cumulative Matching Characteristics (CMC) are used as performance metrics.
-
-Note that, given a query image, we remove the images with the same camera id and same vehicle id in the gallery set. They are not considered when computing the mAP and CMC.
