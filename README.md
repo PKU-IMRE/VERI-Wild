@@ -21,6 +21,8 @@ We provide rich context information such as camera IDs, timestamp, tracks relati
 
 ## Test
 Important!!!!!!!!!
+
+
 Note that, for CVPR 2019 test set, given a query image, you need to remove the images with the same camera id and same vehicle id as query image in the gallery set. They are not considered when computing the mAP and CMC.
 
 
