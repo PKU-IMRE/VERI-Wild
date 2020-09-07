@@ -20,7 +20,8 @@ We provide rich context information such as camera IDs, timestamp, tracks relati
 ![](https://github.com/PKU-IMRE/VERI-Wild/blob/master/statistics.png)
 
 ## Test
-<font color=#FF7F50 >Note that, for CVPR 2019 test set, given a query image, we remove the images with the same camera id and same vehicle id as query image in the gallery set. They are not considered when computing the mAP and CMC.</font>
+Important!!!!!!!!!
+Note that, for CVPR 2019 test set, given a query image, you need to remove the images with the same camera id and same vehicle id as query image in the gallery set. They are not considered when computing the mAP and CMC.
 
 
 
@@ -95,11 +96,11 @@ Yan Bai, Email: yanbai@pku.edu.cn
 	<tr>
 </table>
 
-[1] Yang, L., Luo, P., Change Loy, C., Tang, X.: A large-scale car dataset for fine-grained categorization and verification. In: IEEE Conference on Computer Visionand Pattern Recognition. pp. 3973â€“3981 (2015)
+[1] Yang, L., Luo, P., Change Loy, C., Tang, X.: A large-scale car dataset for fine-grained categorization and verification. In: IEEE Conference on Computer Visionand Pattern Recognition. pp. 3973â€?981 (2015)
 
-[2] Lou, Y., Bai, Y., Liu, J., Wang, S., Duan, L.: Veri-wild: A large dataset and a newmethod for vehicle re-identification in the wild. In: IEEE Conference on ComputerVision and Pattern Recognition. pp. 3235â€“3243 (2019)
+[2] Lou, Y., Bai, Y., Liu, J., Wang, S., Duan, L.: Veri-wild: A large dataset and a newmethod for vehicle re-identification in the wild. In: IEEE Conference on ComputerVision and Pattern Recognition. pp. 3235â€?243 (2019)
 
-[3] Alfasly, S., Hu, Y., Li, H., Liang, T., Jin, X., Liu, B., Zhao, Q.: Multi-label-basedsimilarity learning for vehicle re-identification. IEEE Access7, 162605â€“162616(2019)
+[3] Alfasly, S., Hu, Y., Li, H., Liang, T., Jin, X., Liu, B., Zhao, Q.: Multi-label-basedsimilarity learning for vehicle re-identification. IEEE Access7, 162605â€?62616(2019)
 
 [4] Pirazh, K., Kumar, A., Peri, N., et al: A dual path modelwith adaptive attentionfor vehicle re-identification. In: IEEE International Conference on Computer Vision(2019)
 
