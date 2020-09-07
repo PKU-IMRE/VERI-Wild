@@ -2,8 +2,9 @@
 VERI-Wild: A Large Dataset and a New Method for Vehicle Re-Identification in the Wild
 
 ![](https://github.com/PKU-IMRE/VERI-Wild/blob/master/cars.JPG)
+
 ## Description of VERI-Wild Dataset
-A large-scale vehicle ReID dataset in the wild (VERI-Wild) is captured from a large CCTV surveillance system consisting of 174 cameras across one month (30Ã— 24h) under unconstrained scenarios. The cameras are distributed in a large urban district of more than 200km2. The YOLO-v2 [2] is used to detect the bounding box of vehicles. The raw vehicle image set contains 12 million vehicle images, and 11 volunteers are invited to clean the dataset for 1 month. After data cleaning and annotation, 416,314 vehicle images of 40,671 identities are collected. The statistics of VERI-Wild is illustrated in Figure. For privacy issues, the license plates are masked in the dataset. The distinctive features of VERI-Wild are summarized into the following aspects:
+A large-scale vehicle ReID dataset in the wild (VERI-Wild) is captured from a large CCTV surveillance system consisting of 174 cameras across one month (30*24h) under unconstrained scenarios. The cameras are distributed in a large urban district of more than 200km2. The YOLO-v2 [2] is used to detect the bounding box of vehicles. The raw vehicle image set contains 12 million vehicle images, and 11 volunteers are invited to clean the dataset for 1 month. After data cleaning and annotation, 416,314 vehicle images of 40,671 identities are collected. The statistics of VERI-Wild is illustrated in Figure. For privacy issues, the license plates are masked in the dataset. The distinctive features of VERI-Wild are summarized into the following aspects:
 
 `Unconstrained capture conditions in the wild`
 The VERI-Wild dataset is collected from a real CCTV camera system consisting of 174 surveillance cameras, in which the unconstrained image capture conditions pose a variety of challenges.
@@ -98,11 +99,11 @@ Yan Bai, Email: yanbai@pku.edu.cn
 	<tr>
 </table>
 
-[1] Yang, L., Luo, P., Change Loy, C., Tang, X.: A large-scale car dataset for fine-grained categorization and verification. In: IEEE Conference on Computer Visionand Pattern Recognition. pp. 3973â€?981 (2015)
+[1] Yang, L., Luo, P., Change Loy, C., Tang, X.: A large-scale car dataset for fine-grained categorization and verification. In: IEEE Conference on Computer Visionand Pattern Recognition. (2015)
 
-[2] Lou, Y., Bai, Y., Liu, J., Wang, S., Duan, L.: Veri-wild: A large dataset and a newmethod for vehicle re-identification in the wild. In: IEEE Conference on ComputerVision and Pattern Recognition. pp. 3235â€?243 (2019)
+[2] Lou, Y., Bai, Y., Liu, J., Wang, S., Duan, L.: Veri-wild: A large dataset and a newmethod for vehicle re-identification in the wild. In: IEEE Conference on ComputerVision and Pattern Recognition. (2019)
 
-[3] Alfasly, S., Hu, Y., Li, H., Liang, T., Jin, X., Liu, B., Zhao, Q.: Multi-label-basedsimilarity learning for vehicle re-identification. IEEE Access7, 162605â€?62616(2019)
+[3] Alfasly, S., Hu, Y., Li, H., Liang, T., Jin, X., Liu, B., Zhao, Q.: Multi-label-basedsimilarity learning for vehicle re-identification. IEEE Access7(2019)
 
 [4] Pirazh, K., Kumar, A., Peri, N., et al: A dual path modelwith adaptive attentionfor vehicle re-identification. In: IEEE International Conference on Computer Vision(2019)
 
