@@ -95,6 +95,9 @@ Yan Bai, Email: yanbai@pku.edu.cn
 		<td> GLAMOR(Resnet50+PGN)[10]</td> <td> 77.15 </td> <td> 92.13 </td> <td> 97.43 </td><td> - </td> <td> - </td> <td> - </td><td> - </td> <td> - </td> <td> - </td>
 	<tr>
 	<tr>
+		<td> PVEN(Resnet50)[12]</td> <td> 79.8 </td> <td> 94.01 </td> <td> 98.06 </td><td> 73.9 </td> <td> 92.03 </td> <td> 97.15 </td><td> 66.2 </td> <td> 88.62 </td> <td> 95.31 </td>
+	<tr>	
+	<tr>
 		<td> SAVER(Resnet50)[11]</td> <td> 80.9 </td> <td> 93.78 </td> <td> 97.93 </td><td> 75.3 </td> <td> 92.7 </td> <td> 97.48 </td><td> 67.7 </td> <td> 89.5 </td> <td> 95.8 </td>
 	<tr>
 </table>
@@ -120,3 +123,5 @@ Yan Bai, Email: yanbai@pku.edu.cn
 [10] Abhijit Suprem and Calton Pu: Looking GLAMORous: Vehicle Re-Id in Heterogeneous Cameras Networks with Global and Local Attention. In arXiv preprint arXiv:2002.02256
 
 [11] Khorramshahi Pirazh, Peri Neehar, Chen Jun-cheng, Chellappa Rama: The Devil is in the Details: Self-Supervised Attention for Vehicle Re-Identification. In ECCV 2020
+
+[12] Meng, Dechao, et al. "Parsing-based view-aware embedding network for vehicle re-identification." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020.
