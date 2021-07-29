@@ -24,16 +24,27 @@ We provide rich context information such as camera IDs, timestamp, tracks relati
 Important!!!!!!!!!
 
 
-Note that, for CVPR 2019 test set, given a query image, you need to remove the images with the same camera id and same vehicle id as query image in the gallery set. They are not considered when computing the mAP and CMC.
+Note that, for VERI-Wild test set, given a query image, you need to remove the images with the same camera id and same vehicle id as query image in the gallery set. They are not considered when computing the mAP and CMC.
 
 
 
 ## Download
+### VERI-Wild
 Baidu cloud disk:
 Link: https://pan.baidu.com/s/1ib_gj5IKI2hSv1RbGsQmFw  Password: fbm1
 
 Google driven:
 https://drive.google.com/drive/folders/1q9kClC0gy0bz2i06sHlKUh2Pqk6RxKan?usp=sharing
+
+### VERI-Wild 2.0
+VERI-Wild 2.0 has a challenging and large test set containing about 400K vehicle images that do not have any camera
+overlap with the training set. VERI-Wild 2.0 shares the same training set with VERI-Wild. 
+
+Baidu cloud disk:
+Link: https://pan.baidu.com/s/186nLRk-7X2RssK8cTDCQPw Password: qz32
+
+Google driven:
+https://drive.google.com/drive/folders/1rfuIs1xSCa7CN6IKvMOzjQfbqjY-7E0h?usp=sharing
 
 ## Citation
 ``` 
@@ -43,6 +54,14 @@ https://drive.google.com/drive/folders/1q9kClC0gy0bz2i06sHlKUh2Pqk6RxKan?usp=sha
  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
  pages = {3235--3243},
  year={2019}
+}
+```
+``` 
+@inproceedings{lou2019large,
+ title={Disentangled Feature Learning Network and a Comprehensive Benchmark for Vehicle Re-Identification},
+ author={Bai, Yan and Liu, Jun and Lou, Yihang and Wang, Ce and Duan, Ling-Yu},
+ booktitle={In IEEE Transactions on Pattern Analysis and Machine Intelligence},
+ year={2021}
 }
 ```
 
@@ -100,7 +119,43 @@ Yan Bai, Email: yanbai@pku.edu.cn
 	<tr>
 		<td> SAVER(Resnet50)[11]</td> <td> 80.9 </td> <td> 93.78 </td> <td> 97.93 </td><td> 75.3 </td> <td> 92.7 </td> <td> 97.48 </td><td> 67.7 </td> <td> 89.5 </td> <td> 95.8 </td>
 	<tr>
+	<tr>
+	        <td> DFNet(Resnet50)[14]</td> <td> 83.09 </td> <td> 94.79 </td> <td> 98.05 </td><td> 77.27 </td> <td> 93.22 </td> <td> 97.46 </td><td> 69.85 </td> <td> 89.38 </td> <td> 96.03 </td>
+	<tr>
 </table>
+
+
+## State-of-the-art Results on the VeRi-Wild 2.0 Dataset
+<table>
+  <tr>
+      <td>Methods</td><td colspan="3">Test Set All</td><td colspan="3">Test Set A</td><td colspan="3">Test Set B</td>
+  <tr>
+  <tr>
+      <td> </td> <td> mAP </td> <td> Top1 </td> <td> Top5 </td><td> mAP </td> <td> Top1 </td> <td> Top5 </td><td> mAP </td> <td> Top1 </td> <td> Top5 </td>
+  <tr>
+  <tr>
+       <td> Strong Baseline (Resnet50) [8] </td> <td> 34.71 </td> <td> 54.37 </td> <td> 63.99 </td> <td> 32.75 </td> <td> 40.12 </td> <td> 52.18 </td> <td> 42.25 </td> <td> 82.72 </td> <td> 90.67</td>
+  <tr>
+  <tr>
+       <td> GSTE (Resnet50) (w/ bag-of-tricks)[13] </td> <td> 32.57 </td> <td> 59.25 </td> <td> 64.48 </td> <td> 33.01 </td> <td> 47.54 </td> <td> 50.81 </td> <td> 41.82 </td> <td> 86.08 </td> <td> 91.43</td>
+  <tr>
+  <tr>
+       <td> FDA-Net (Resnet50)(w/ bag-of-tricks) [2] </td> <td> 34.21 </td> <td> 57.32 </td> <td> 64.90 </td> <td> 34.63 </td> <td> 45.53 </td> <td> 52.77 </td> <td> 3.93 </td> <td> 84.78 </td> <td> 92.47</td>
+  <tr>
+  <tr>
+       <td> EVER (Resnet50) [41] </td> <td> 36.8 </td> <td> 59.1 </td> <td> 67.6 </td> <td> 36.8 </td> <td> 48.7 </td> <td> 57.3 </td> <td> 45.4 </td> <td> 86.1 </td> <td> 94.3</td>
+   <tr>
+  <tr>
+      <td> PVEN(Resnet50)[12]</td> <td> 37.15 </td> <td> 61.19 </td> <td> 68.63 </td> <td> 38.77 </td> <td> 51.28 </td> <td> 59.32 </td> <td> 45.48 </td> <td> 88.05 </td> <td> 94.35 </td>
+  <tr>  
+  <tr>
+      <td> SAVER(Resnet50)[11]</td> <td> 38.0 </td> <td> 62.1 </td> <td> 69.50 </td><td> 39.2 </td> <td> 52.3 </td> <td> 60.2 </td><td> 45.1 </td> <td> 88.1 </td> <td> 94.1 </td>
+  <tr>
+  <tr>
+      <td> DFNet(Resnet50)[14]</td> <td> 39.84 </td> <td> 62.21 </td> <td> 68.90 </td><td> 40.39 </td> <td> 51.68 </td> <td> 60.51 </td><td> 46.13 </td> <td> 88.56 </td> <td> 94.17 </td>
+  <tr>
+</table>
+
 
 [1] Yang, L., Luo, P., Change Loy, C., Tang, X.: A large-scale car dataset for fine-grained categorization and verification. In: IEEE Conference on Computer Visionand Pattern Recognition. (2015)
 
@@ -125,3 +180,7 @@ Yan Bai, Email: yanbai@pku.edu.cn
 [11] Khorramshahi Pirazh, Peri Neehar, Chen Jun-cheng, Chellappa Rama: The Devil is in the Details: Self-Supervised Attention for Vehicle Re-Identification. In ECCV 2020
 
 [12] Meng, Dechao, et al. "Parsing-based view-aware embedding network for vehicle re-identification." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020.
+
+[13] Yan Bai, Yihang Lou, Feng Gao, Shiqi Wang, Yuwei Wu, and Lingyu Duan. Group sensitive triplet embedding for vehicle re-identification. IEEE Transactions on Multimedia, 2018.
+
+[14] Yan Bai, Jun Liu, Yihang Lou, Ce Wang, and Lingyu Duan. Disentangled Feature Learning Network and a Comprehensive Benchmark for Vehicle Re-Identification. Tpami 2021. 
