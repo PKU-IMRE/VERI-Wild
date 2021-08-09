@@ -27,25 +27,6 @@ Important!!!!!!!!!
 Note that, for VERI-Wild test set, given a query image, you need to remove the images with the same camera id and same vehicle id as query image in the gallery set. They are not considered when computing the mAP and CMC.
 
 
-
-## Download
-### VERI-Wild
-Baidu cloud disk:
-Link: https://pan.baidu.com/s/1ib_gj5IKI2hSv1RbGsQmFw  Password: fbm1
-
-Google driven:
-https://drive.google.com/drive/folders/1q9kClC0gy0bz2i06sHlKUh2Pqk6RxKan?usp=sharing
-
-### VERI-Wild 2.0
-VERI-Wild 2.0 has a challenging and large test set containing about 400K vehicle images that do not have any camera
-overlap with the training set. VERI-Wild 2.0 shares the same training set with VERI-Wild. 
-
-Baidu cloud disk:
-Link: https://pan.baidu.com/s/186nLRk-7X2RssK8cTDCQPw Password: qz32
-
-Google driven:
-https://drive.google.com/drive/folders/1rfuIs1xSCa7CN6IKvMOzjQfbqjY-7E0h?usp=sharing
-
 ## Citation
 ``` 
 @inproceedings{lou2019large,
@@ -67,6 +48,9 @@ https://drive.google.com/drive/folders/1rfuIs1xSCa7CN6IKvMOzjQfbqjY-7E0h?usp=sha
 
 ## Contactor
 Yan Bai, Email: yanbai@pku.edu.cn
+
+To encourage related research, we will provide the dataset according to your request. Please email your full name and affiliation to the contact person (yanbai at pku dot edu dot cn). We ask for your information only to make sure the dataset is used for non-commercial purposes. We will not give it to any third party or publish it publicly anywhere. Due to the privacy issue we will not provide the license plates in the future. If you download our dataset, it means you have agreed to our terms of access in the email.
+
 
 ## State-of-the-art Results on the VeRi-Wild Dataset
 
